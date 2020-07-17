@@ -5,12 +5,18 @@
 
 body {
     background-color: whitesmoke;
+    display: flex;
+     flex-wrap: wrap; 
+   
+     max-width: 90rem;
+     min-width: 90rem; 
 }
 
 .card-style {
     border: solid 1px lightblue;
-    width: 20rem;
     box-shadow: .5rem 1rem lightgray;
+    width: 20rem;
+    margin: 2rem;
 }
 
 img {
