@@ -1,3 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: darkgray;
+    background-color: whitesmoke;
+}
+
+.card-style {
+    border: solid 1px lightblue;
+    width: 20rem;
+    box-shadow: .5rem 1rem lightgray;
+}
+
+img {
+    height: 14rem;
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.descriptor {
+    text-align: justify;
+}
+
+h3 {
+    background-color: #a9a9a9;
+    color: yellow; 
 }
