@@ -66,3 +66,20 @@ p {
     padding: 4px;
     font-family: 'Ranchers', cursive;
 }
+
+
+
+.football-img {
+    position: relative;
+}
+
+.sold-out {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+
+}
+
+.football-parent {
+    position: relative;
+}
