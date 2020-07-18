@@ -1,85 +1,81 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #FF5722;
-    display: flex;
-     flex-wrap: wrap; 
-   
-     max-width: 90rem;
-     min-width: 90rem; 
+  background-color: #ff5722;
+  display: flex;
+  flex-wrap: wrap;
+
+  /* max-width: 90rem; */
+  /* min-width: 90rem; */
 }
 
 .card-style {
-    border: solid 1px lightblue;
-    box-shadow: .3rem 1rem lightgray;
-    width: 20rem;
-    margin: 2rem;
-    background-color: #B2EBF2;
-    border-radius: 5%;
+  border: solid 1px lightblue;
+  box-shadow: 0.3rem 1rem lightgray;
+  width: 20rem;
+  margin: 2rem;
+  background-color: #b2ebf2;
+  border-radius: 5%;
 }
 
 img {
-    /* height: 14rem; */
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+  /* height: 14rem; */
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {
-    text-align: center;
-    font-family: 'Ranchers', cursive;
+  text-align: center;
+  font-family: "Ranchers", cursive;
 }
 
 .descriptor {
-    text-align: justify;
-    padding: 3px;
-    font-family: 'Ranchers', cursive;
+  text-align: justify;
+  padding: 3px;
+  font-family: "Ranchers", cursive;
 }
 
 h3 {
-    background-color: #a9a9a9;
-    color: yellow; 
-    font-family: 'Ranchers', cursive;
+  background-color: #a9a9a9;
+  color: yellow;
+  font-family: "Ranchers", cursive;
 }
 
 h4 {
-    padding: 3px;
-    font-family: 'Ranchers', cursive;
+  padding: 3px;
+  font-family: "Ranchers", cursive;
 }
 
-footer{
-    padding: 3px;
-    font-family: 'Ranchers', cursive;
+footer {
+  padding: 3px;
+  font-family: "Ranchers", cursive;
 }
 
 h5 {
-    padding: 3px;
-    font-family: 'Ranchers', cursive;
+  padding: 3px;
+  font-family: "Ranchers", cursive;
 }
 
 p {
-    padding: 4px;
-    font-family: 'Ranchers', cursive;
+  padding: 4px;
+  font-family: "Ranchers", cursive;
 }
 
-
-
 .football-img {
-    position: relative;
+  position: relative;
 }
 
 .sold-out {
-    position: absolute;
-    top: 1rem;
-    left: 2rem;
-
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
 }
 
 .football-parent {
-    position: relative;
+  position: relative;
 }
