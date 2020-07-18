@@ -75,7 +75,7 @@ p {
 
 .sold-out {
     position: absolute;
-    top: .5rem;
+    top: 1rem;
     left: 2rem;
 
 }
